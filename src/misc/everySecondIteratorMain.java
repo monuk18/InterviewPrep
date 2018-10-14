@@ -52,7 +52,7 @@ class myArrayList<T> extends ArrayList<T> implements Iterable<T>{
              try{
                  t =iterator.next();
              }catch (NoSuchElementException e){
-
+                 e.printStackTrace();
              }
             return t;
         }
